@@ -5,18 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hamza Bin Nazir - Software Developer, Android Developer and .NET Developer portfolio.">
   <title>Hamza Bin Nazir | Developer Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar" id="navbar">
+<!-- Navbar -->
+<nav class="navbar">
   <div class="container nav-inner">
     <a class="brand" href="#home">Hamza<span>.</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
-    <div class="nav-links" id="navLinks">
+    <div class="nav-links">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -26,116 +23,88 @@
   </div>
 </nav>
 
-<main>
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow">FINAL-YEAR BS COMPUTER SCIENCE STUDENT</span>
-        <h1>Hi, I'm <span>Hamza Bin Nazir</span></h1>
-        <h2>Software Developer <b>•</b> Android Developer <b>•</b> .NET Developer</h2>
-        <p>I build practical web, desktop and Android applications with clean interfaces, structured code and database integration.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="Hamza_Bin_Nazir_CV.pdf" download>Download CV</a>
-          <a class="btn btn-outline" href="#projects">View Projects</a>
-          <a class="btn btn-ghost" href="#contact">Contact Me</a>
-        </div>
-        <div class="quick-links">
-          <a href="mailto:hamzanazir357@gmail.com">✉ Email</a>
-          <a href="https://www.linkedin.com/in/hamza-nazir-550b28307/" target="_blank" rel="noopener">in LinkedIn</a>
-          <a href="https://github.com/Hamza-Nazir193" target="_blank" rel="noopener">⌘ GitHub</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="profile-orbit"><div class="profile-placeholder">HN</div></div>
-        <div class="floating-card card-one"><strong>11+</strong><span>Projects</span></div>
-        <div class="floating-card card-two"><strong>Android</strong><span>Kotlin & Compose</span></div>
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">FINAL-YEAR BS COMPUTER SCIENCE STUDENT</span>
+      <h1>Hi, I'm <span>Hamza Bin Nazir</span></h1>
+      <h2>Software Developer • Android Developer • .NET Developer</h2>
+      <p>I build practical web, desktop and Android applications with clean interfaces, structured code and database integration.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="Hamza_Bin_Nazir_CV.pdf" download>Download CV</a>
+        <a class="btn btn-outline" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Contact Me</a>
       </div>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="section" id="about">
-    <div class="container">
-      <div class="section-heading"><span>ABOUT</span><h2>Turning ideas into working applications.</h2></div>
-      <div class="about-grid">
-        <div class="about-card highlight-card">
-          <div class="card-icon">✦</div>
-          <h3>Developer Profile</h3>
-          <p>I am a final-year BS Computer Science student with hands-on experience building Android applications, .NET solutions and responsive websites.</p>
-        </div>
-        <div class="about-card">
-          <h3>What I work with</h3>
-          <ul class="check-list">
-            <li>Android apps with Kotlin & Jetpack Compose</li>
-            <li>C# / .NET applications and database-driven systems</li>
-            <li>Responsive HTML, CSS, JavaScript & Bootstrap websites</li>
-            <li>SQL / SQLite data management and CRUD workflows</li>
-          </ul>
-        </div>
-      </div>
+    <div class="hero-visual">
+      <div class="profile-placeholder">HN</div>
+      <div class="floating-card"><strong>11+</strong><span>Projects</span></div>
+      <div class="floating-card"><strong>Android</strong><span>Kotlin & Compose</span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Skills Section -->
-  <section class="section section-soft" id="skills">
-    <div class="container">
-      <div class="section-heading center"><span>SKILLS</span><h2>Technical toolkit</h2></div>
-      <div class="skills-grid">
-        <div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>Web Development</h3><p>HTML5, CSS3, JavaScript, Bootstrap</p></div>
-        <div class="skill-card"><span class="skill-icon">C#</span><h3>.NET Development</h3><p>C#, .NET Framework, ASP.NET MVC</p></div>
-        <div class="skill-card"><span class="skill-icon">K</span><h3>Android Development</h3><p>Kotlin, Android Studio, Jetpack Compose</p></div>
-        <div class="skill-card"><span class="skill-icon">DB</span><h3>Databases & Tools</h3><p>SQL Server, SQLite, Firebase, Git, GitHub</p></div>
-      </div>
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-heading center"><span>PORTFOLIO</span><h2>My Projects</h2></div>
+    <div class="projects-grid">
+
+      <!-- Restaurant -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="restaurant-1.jpeg" alt="Restaurant Management System screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Restaurant Management System</h3><p>C# / .NET / SQL</p></div>
+      </article>
+
+      <!-- Student -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="student-1.jpeg" alt="Student Management System screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Student Management System</h3><p>Kotlin / Android / SQLite</p></div>
+      </article>
+
+      <!-- Hotel -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="hotel-1.png" alt="Hotel Management System screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Hotel Management System</h3><p>HTML / CSS / JavaScript</p></div>
+      </article>
+
+      <!-- Cricket -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="cricket.png" alt="Cricket Management System screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Cricket Management System</h3><p>HTML / CSS / Bootstrap</p></div>
+      </article>
+
+      <!-- Food Express -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="food-express.jpeg" alt="Food Express application screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Food Express</h3><p>Kotlin / Jetpack Compose / Android</p></div>
+      </article>
+
+      <!-- Complaint -->
+      <article class="project-card featured">
+        <div class="project-media"><img src="complaint-1.jpeg" alt="Complaint Management System screenshot"><span class="project-label">Featured</span></div>
+        <div class="project-content"><h3>Complaint Management System</h3><p>Android / Kotlin / Database</p></div>
+      </article>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Projects Section -->
-  <section class="section" id="projects">
-    <div class="container">
-      <div class="section-heading center"><span>PORTFOLIO</span><h2>My Projects</h2></div>
-      <div class="projects-grid">
-
-        <!-- Updated paths -->
-        <article class="project-card featured">
-          <div class="project-media"><img src="restaurant-1.jpeg" alt="Restaurant Management System screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">DESKTOP / .NET</div><h3>1. Restaurant Management System</h3></div>
-        </article>
-
-        <article class="project-card featured">
-          <div class="project-media"><img src="student-1.jpeg" alt="Student Management System screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">ANDROID</div><h3>2. Student Management System</h3></div>
-        </article>
-
-        <article class="project-card featured">
-          <div class="project-media"><img src="hotel-1.png" alt="Hotel Management System screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>5. Hotel Management System</h3></div>
-        </article>
-
-        <article class="project-card featured">
-          <div class="project-media"><img src="cricket.png" alt="Cricket Management System screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>9. Cricket Management System</h3></div>
-        </article>
-
-        <article class="project-card featured">
-          <div class="project-media"><img src="food-express.jpeg" alt="Food Express application screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">ANDROID</div><h3>10. Food Express</h3></div>
-        </article>
-
-        <article class="project-card featured">
-          <div class="project-media"><img src="complaint-1.jpeg" alt="Complaint Management System screenshot"><span class="project-label">Featured</span></div>
-          <div class="project-content"><div class="project-type">ANDROID</div><h3>11. Complaint Management System</h3></div>
-        </article>
-
-      </div>
+<!-- Contact -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-heading center light"><span>CONTACT</span><h2>Let's connect</h2></div>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:hamzanazir357@gmail.com"><div class="contact-icon">✉</div><strong>hamzanazir357@gmail.com</strong></a>
+      <a class="contact-card" href="tel:+923170216998"><div class="contact-icon">☎</div><strong>+92 317 0216998</strong></a>
+      <a class="contact-card" href="https://www.linkedin.com/in/hamza-nazir-550b28307/" target="_blank"><div class="contact-icon">in</div><strong>Hamza Bin Nazir</strong></a>
+      <a class="contact-card" href="https://github.com/Hamza-Nazir193" target="_blank"><div class="contact-icon">⌘</div><strong>Hamza-Nazir193</strong></a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section class="section contact-section" id="contact">
-    <div class="container">
-      <div class="section-heading center light"><span>CONTACT</span><h2>Let's connect</h2></div>
-      <div class="contact-grid">
-        <a class="contact-card" href="mailto:hamzanazir357@gmail.com"><div class="contact-icon">✉</div><div><small>Email</small><strong>hamzanazir357@gmail.com</strong></div></a>
-        <a class="contact-card" href="tel:+923170216998"><div class="contact-icon">☎</div><div><small>Phone</small><strong>+92 317 0216998</strong></div></a>
-        <a class="contact-card" href="https://www.linkedin.com/in/hamza-nazir-550b28307/" target="_blank" rel="noopener"><div class="contact
+<footer><div class="container footer-inner"><span>© 2026 Hamza Bin Nazir</span></div></footer>
+
+</body>
+</html>
