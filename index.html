@@ -1,932 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hamza Bin Nazir | Software Developer</title>
-
-    <meta name="description"
-          content="Hamza Bin Nazir - Software Developer, Android Developer and .NET Developer">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hamza Bin Nazir - Software Developer, Android Developer and .NET Developer portfolio.">
+  <title>Hamza Bin Nazir | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- ================= NAVBAR ================= -->
-
-<header class="navbar">
-
-    <div class="logo">
-        Hamza Bin Nazir
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">Hamza<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
+  </nav>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<section class="hero" id="home">
-
-    <div class="hero-content">
-
-        <span class="eyebrow">
-            SOFTWARE DEVELOPER
-        </span>
-
-        <h1>
-            Hamza Bin Nazir
-        </h1>
-
-        <h2>
-            Software Developer | Android Developer | .NET Developer
-        </h2>
-
-        <p>
-            Final-year BS Computer Science student passionate about
-            building software applications, Android apps and responsive
-            web solutions.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="Hamza_Bin_Nazir_CV.pdf"
-               download
-               class="btn btn-primary">
-                Download CV
-            </a>
-
-            <a href="#projects"
-               class="btn btn-outline">
-                View Projects
-            </a>
-
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">FINAL-YEAR BS COMPUTER SCIENCE STUDENT</span>
+          <h1>Hi, I'm <span>Hamza Bin Nazir</span></h1>
+          <h2>Software Developer <b>•</b> Android Developer <b>•</b> .NET Developer</h2>
+          <p>I build practical web, desktop and Android applications with clean interfaces, structured code and database integration.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="Hamza_Bin_Nazir_CV.pdf" download>Download CV</a>
+            <a class="btn btn-outline" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="quick-links">
+            <a href="mailto:hamzanazir357@gmail.com">✉ Email</a>
+            <a href="https://www.linkedin.com/in/hamza-nazir-550b28307/" target="_blank" rel="noopener">in LinkedIn</a>
+            <a href="https://github.com/Hamza-Nazir193" target="_blank" rel="noopener">⌘ GitHub</a>
+          </div>
         </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="section" id="about">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span>ABOUT</span>
-
-            <h2>
-                Turning ideas into working applications.
-            </h2>
-
+        <div class="hero-visual">
+          <div class="profile-orbit">
+            <div class="profile-placeholder">HN</div>
+          </div>
+          <div class="floating-card card-one"><strong>11+</strong><span>Projects</span></div>
+          <div class="floating-card card-two"><strong>Android</strong><span>Kotlin & Compose</span></div>
         </div>
+      </div>
+    </section>
 
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading"><span>ABOUT</span><h2>Turning ideas into working applications.</h2></div>
         <div class="about-grid">
-
-            <div class="about-card highlight-card">
-
-                <div class="card-icon">
-                    ✦
-                </div>
-
-                <h3>
-                    Developer Profile
-                </h3>
-
-                <p>
-                    I am a final-year BS Computer Science student with
-                    hands-on experience building Android applications,
-                    .NET solutions and responsive websites. I enjoy
-                    learning new technologies and turning requirements
-                    into usable software.
-                </p>
-
-            </div>
-
-
-            <div class="about-card">
-
-                <h3>
-                    What I work with
-                </h3>
-
-                <ul class="check-list">
-
-                    <li>
-                        Android apps with Kotlin & Jetpack Compose
-                    </li>
-
-                    <li>
-                        C# / .NET applications and database-driven systems
-                    </li>
-
-                    <li>
-                        Responsive HTML, CSS, JavaScript & Bootstrap websites
-                    </li>
-
-                    <li>
-                        SQL / SQLite data management and CRUD workflows
-                    </li>
-
-                </ul>
-
-            </div>
-
+          <div class="about-card highlight-card">
+            <div class="card-icon">✦</div>
+            <h3>Developer Profile</h3>
+            <p>I am a final-year BS Computer Science student with hands-on experience building Android applications, .NET solutions and responsive websites. I enjoy learning new technologies and turning requirements into usable software.</p>
+          </div>
+          <div class="about-card">
+            <h3>What I work with</h3>
+            <ul class="check-list">
+              <li>Android apps with Kotlin & Jetpack Compose</li>
+              <li>C# / .NET applications and database-driven systems</li>
+              <li>Responsive HTML, CSS, JavaScript & Bootstrap websites</li>
+              <li>SQL / SQLite data management and CRUD workflows</li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ================= SKILLS ================= -->
-
-<section class="section section-soft" id="skills">
-
-    <div class="container">
-
-        <div class="section-heading center">
-
-            <span>SKILLS</span>
-
-            <h2>
-                Technical Toolkit
-            </h2>
-
-            <p>
-                Technologies I have worked with across academic
-                and personal projects.
-            </p>
-
-        </div>
-
-
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading center"><span>SKILLS</span><h2>Technical toolkit</h2><p>Technologies I have worked with across academic and personal projects.</p></div>
         <div class="skills-grid">
-
-            <div class="skill-card">
-
-                <span class="skill-icon">
-                    &lt;/&gt;
-                </span>
-
-                <h3>
-                    Web Development
-                </h3>
-
-                <p>
-                    HTML5, CSS3, JavaScript, Bootstrap
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <span class="skill-icon">
-                    C#
-                </span>
-
-                <h3>
-                    .NET Development
-                </h3>
-
-                <p>
-                    C#, .NET Framework, ASP.NET MVC, Visual Studio
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <span class="skill-icon">
-                    K
-                </span>
-
-                <h3>
-                    Android Development
-                </h3>
-
-                <p>
-                    Kotlin, Android Studio, Jetpack Compose
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <span class="skill-icon">
-                    DB
-                </span>
-
-                <h3>
-                    Databases & Tools
-                </h3>
-
-                <p>
-                    SQL Server, SQLite, Firebase, Git, GitHub
-                </p>
-
-            </div>
-
+          <div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>Web Development</h3><p>HTML5, CSS3, JavaScript, Bootstrap</p></div>
+          <div class="skill-card"><span class="skill-icon">C#</span><h3>.NET Development</h3><p>C#, .NET Framework, ASP.NET MVC, Visual Studio</p></div>
+          <div class="skill-card"><span class="skill-icon">K</span><h3>Android Development</h3><p>Kotlin, Android Studio, Jetpack Compose</p></div>
+          <div class="skill-card"><span class="skill-icon">DB</span><h3>Databases & Tools</h3><p>SQL Server, SQLite, Firebase, Git, GitHub</p></div>
         </div>
-
-
         <div class="skill-pills">
-
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>Bootstrap</span>
-            <span>C#</span>
-            <span>ASP.NET MVC</span>
-            <span>.NET Framework</span>
-            <span>Kotlin</span>
-            <span>Jetpack Compose</span>
-            <span>Firebase</span>
-            <span>SQL Server</span>
-            <span>SQLite</span>
-            <span>Git & GitHub</span>
-
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span><span>C#</span><span>ASP.NET MVC</span><span>.NET Framework</span><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span><span>SQL Server</span><span>SQLite</span><span>Git & GitHub</span>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section class="section" id="projects">
-
-    <div class="container">
-
-        <div class="section-heading center">
-
-            <span>PORTFOLIO</span>
-
-            <h2>
-                My Projects
-            </h2>
-
-            <p>
-                11 projects including featured projects with
-                real screenshots from my work.
-            </p>
-
-        </div>
-
-
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading center"><span>PORTFOLIO</span><h2>My Projects</h2><p>11 projects are included. Six featured projects have real screenshots from my work.</p></div>
         <div class="projects-grid">
-
-
-            <!-- PROJECT 1 - RESTAURANT -->
-
-            <article class="project-card featured">
-
-                <div class="project-media project-gallery">
-
-                    <img src="restaurant-1.jpeg"
-                         alt="Restaurant Management System screenshot 1">
-
-                    <img src="restaurant-2.jpeg"
-                         alt="Restaurant Management System screenshot 2">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        DESKTOP / .NET
-                    </div>
-
-                    <h3>
-                        1. Restaurant Management System
-                    </h3>
-
-                    <p>
-                        Database-driven restaurant system for managing
-                        food items, customers and operational records.
-                    </p>
-
-                    <div class="tags">
-                        <span>C#</span>
-                        <span>.NET</span>
-                        <span>SQL</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 2 - STUDENT -->
-
-            <article class="project-card featured">
-
-                <div class="project-media project-gallery">
-
-                    <img src="student-1.jpeg"
-                         alt="Student Management System screenshot 1">
-
-                    <img src="student-2.jpeg"
-                         alt="Student Management System screenshot 2">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        ANDROID
-                    </div>
-
-                    <h3>
-                        2. Student Management System
-                    </h3>
-
-                    <p>
-                        Android application with registration and
-                        student record workflows using Kotlin
-                        and local storage.
-                    </p>
-
-                    <div class="tags">
-                        <span>Kotlin</span>
-                        <span>Android</span>
-                        <span>SQLite</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 3 -->
-
-            <article class="project-card">
-
-                <div class="project-media no-image">
-
-                    <span>
-                        PROJECT 03
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        DESKTOP / .NET
-                    </div>
-
-                    <h3>
-                        3. Desktop Student Management
-                    </h3>
-
-                    <p>
-                        Windows application for student records,
-                        enrollment, tracking and academic data management.
-                    </p>
-
-                    <div class="tags">
-                        <span>C#</span>
-                        <span>.NET</span>
-                        <span>Database</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 4 - SIGNASSIST -->
-
-            <article class="project-card">
-
-                <div class="project-media no-image">
-
-                    <span>
-                        SIGNASSIST
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        ANDROID / FYP
-                    </div>
-
-                    <h3>
-                        4. Sign Recognition System
-                    </h3>
-
-                    <p>
-                        Android sign-language project focused on
-                        recognition, translation and accessible
-                        user interaction.
-                    </p>
-
-                    <div class="tags">
-                        <span>Kotlin</span>
-                        <span>Jetpack Compose</span>
-                        <span>Firebase</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 5 - HOTEL -->
-
-            <article class="project-card featured">
-
-                <div class="project-media project-gallery">
-
-                    <img src="hotel-1.png"
-                         alt="Hotel Management System screenshot 1">
-
-                    <img src="hotel-2.png"
-                         alt="Hotel Management System screenshot 2">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        WEB APPLICATION
-                    </div>
-
-                    <h3>
-                        5. Hotel Management System
-                    </h3>
-
-                    <p>
-                        Responsive hotel interface covering bookings,
-                        rooms, guests and staff management workflows.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 6 -->
-
-            <article class="project-card">
-
-                <div class="project-media no-image">
-
-                    <span>
-                        PROJECT 06
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        WEB APPLICATION
-                    </div>
-
-                    <h3>
-                        6. Ticket Management System
-                    </h3>
-
-                    <p>
-                        Web interface for booking and tracking tickets
-                        with responsive forms and organized workflows.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Bootstrap</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 7 -->
-
-            <article class="project-card">
-
-                <div class="project-media no-image">
-
-                    <span>
-                        PROJECT 07
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        WEB APPLICATION
-                    </div>
-
-                    <h3>
-                        7. Hospital Management System
-                    </h3>
-
-                    <p>
-                        Healthcare management interface covering
-                        appointments, doctors, patients and availability views.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>Bootstrap</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 8 -->
-
-            <article class="project-card">
-
-                <div class="project-media no-image">
-
-                    <span>
-                        PROJECT 08
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        WEB APPLICATION
-                    </div>
-
-                    <h3>
-                        8. Online Ride Booking System
-                    </h3>
-
-                    <p>
-                        Responsive ride-booking interface with vehicle
-                        selection, route and fare workflow concepts.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Bootstrap</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 9 - CRICKET -->
-
-            <article class="project-card featured">
-
-                <div class="project-media">
-
-                    <img src="cricket.png"
-                         alt="Cricket Management System screenshot">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        WEB APPLICATION
-                    </div>
-
-                    <h3>
-                        9. Cricket Management System
-                    </h3>
-
-                    <p>
-                        Sports-focused website interface featuring
-                        teams, tournaments, players and cricket content.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Bootstrap</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 10 - FOOD EXPRESS -->
-
-            <article class="project-card featured">
-
-                <div class="project-media project-gallery food-gallery">
-
-                    <img src="food-express.jpeg"
-                         alt="Food Express screenshot 1">
-
-                    <img src="food-express-2.jpeg"
-                         alt="Food Express screenshot 2">
-
-                    <img src="food-express-3.jpeg"
-                         alt="Food Express screenshot 3">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        ANDROID
-                    </div>
-
-                    <h3>
-                        10. Food Express
-                    </h3>
-
-                    <p>
-                        Food delivery Android application with category
-                        browsing, food items and customer ordering flows.
-                    </p>
-
-                    <div class="tags">
-                        <span>Kotlin</span>
-                        <span>Jetpack Compose</span>
-                        <span>Android</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 11 - COMPLAINT -->
-
-            <article class="project-card featured">
-
-                <div class="project-media project-gallery">
-
-                    <img src="complaint-1.jpeg"
-                         alt="Complaint Management System screenshot 1">
-
-                    <img src="complaint-2.jpeg"
-                         alt="Complaint Management System screenshot 2">
-
-                    <span class="project-label">
-                        Featured
-                    </span>
-
-                </div>
-
-                <div class="project-content">
-
-                    <div class="project-type">
-                        ANDROID
-                    </div>
-
-                    <h3>
-                        11. Complaint Management System
-                    </h3>
-
-                    <p>
-                        Android complaint system designed for submitting
-                        complaints and providing admin management workflows.
-                    </p>
-
-                    <div class="tags">
-                        <span>Android</span>
-                        <span>Kotlin</span>
-                        <span>Database</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
+          <article class="project-card featured">
+            <div class="project-media"><img src="restaurant-1.jpeg" alt="Restaurant Management System screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">DESKTOP / .NET</div><h3>1. Restaurant Management System</h3><p>Database-driven restaurant system for managing food items, customers and operational records.</p><div class="tags"><span>C#</span><span>.NET</span><span>SQL</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media"><img src="student-1.jpeg" alt="Student Management System screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">ANDROID</div><h3>2. Student Management System</h3><p>Android application with registration and student record workflows using Kotlin and local storage.</p><div class="tags"><span>Kotlin</span><span>Android</span><span>SQLite</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media no-image"><span>PROJECT 03</span></div>
+            <div class="project-content"><div class="project-type">DESKTOP / .NET</div><h3>3. Desktop Student Management</h3><p>Windows application for student records, enrollment, tracking and academic data management.</p><div class="tags"><span>C#</span><span>.NET</span><span>Database</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media sign-gallery">
+              <img src="signassist-history.jpeg" alt="SignAssist recent translations screen">
+              <img src="signassist-k.jpeg" alt="SignAssist ASL letter K screen">
+              <span class="project-label">Featured</span>
+            </div>
+            <div class="project-content"><div class="project-type">ANDROID / FYP</div><h3>4. Sign Recognition System</h3><p>Android sign-language project focused on recognition, translation and accessible user interaction.</p><div class="tags"><span>Kotlin</span><span>Jetpack Compose</span><span>Firebase</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media"><img src="hotel-1.png" alt="Hotel Management System screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>5. Hotel Management System</h3><p>Responsive hotel interface covering bookings, rooms, guests and staff management workflows.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media no-image"><span>PROJECT 06</span></div>
+            <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>6. Ticket Management System</h3><p>Web interface for booking and tracking tickets with responsive forms and organized workflows.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media no-image"><span>PROJECT 07</span></div>
+            <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>7. Hospital Management System</h3><p>Healthcare management interface covering appointments, doctors, patients and availability views.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media no-image"><span>PROJECT 08</span></div>
+            <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>8. Online Ride Booking System</h3><p>Responsive ride-booking interface with vehicle selection, route and fare workflow concepts.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media"><img src="cricket.png" alt="Cricket Management System screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">WEB APPLICATION</div><h3>9. Cricket Management System</h3><p>Sports-focused website interface featuring teams, tournaments, players and cricket content.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media"><img src="food-express.jpeg" alt="Food Express application screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">ANDROID</div><h3>10. Food Express</h3><p>Food delivery Android application with category browsing, food items and customer ordering flows.</p><div class="tags"><span>Kotlin</span><span>Jetpack Compose</span><span>Android</span></div></div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-media"><img src="complaint-1.jpeg" alt="Complaint Management System screenshot"><span class="project-label">Featured</span></div>
+            <div class="project-content"><div class="project-type">ANDROID</div><h3>11. Complaint Management System</h3><p>Android complaint system designed for submitting complaints and providing admin management workflows.</p><div class="tags"><span>Android</span><span>Kotlin</span><span>Database</span></div></div>
+          </article>
         </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="section cta-section">
+      <div class="container cta-box">
+        <div><span class="eyebrow dark">OPEN TO OPPORTUNITIES</span><h2>Let's build something useful.</h2><p>Looking for software, Android or .NET development opportunities.</p></div>
+        <a class="btn btn-light" href="#contact">Let's Connect →</a>
+      </div>
+    </section>
 
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<section class="section cta-section">
-
-    <div class="container cta-box">
-
-        <div>
-
-            <span class="eyebrow dark">
-                OPEN TO OPPORTUNITIES
-            </span>
-
-            <h2>
-                Let's build something useful.
-            </h2>
-
-            <p>
-                Looking for software, Android or .NET development opportunities.
-            </p>
-
-        </div>
-
-        <a class="btn btn-light"
-           href="#contact">
-            Let's Connect →
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section class="section contact-section" id="contact">
-
-    <div class="container">
-
-        <div class="section-heading center light">
-
-            <span>
-                CONTACT
-            </span>
-
-            <h2>
-                Let's connect
-            </h2>
-
-            <p>
-                For internships, jobs, freelance projects or
-                software development opportunities.
-            </p>
-
-        </div>
-
-
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading center light"><span>CONTACT</span><h2>Let's connect</h2><p>For internships, jobs, freelance projects or software development opportunities.</p></div>
         <div class="contact-grid">
-
-
-            <a class="contact-card"
-               href="mailto:hamzanazir357@gmail.com">
-
-                <div class="contact-icon">
-                    ✉
-                </div>
-
-                <div>
-
-                    <small>
-                        Email
-                    </small>
-
-                    <strong>
-                        hamzanazir357@gmail.com
-                    </strong>
-
-                </div>
-
-            </a>
-
-
-            <a class="contact-card"
-               href="tel:+923170216998">
-
-                <div class="contact-icon">
-                    ☎
-                </div>
-
-                <div>
-
-                    <small>
-                        Phone
-                    </small>
-
-                    <strong>
-                        +92 317 0216998
-                    </strong>
-
-                </div>
-
-            </a>
-
-
-            <a class="contact-card"
-               href="https://www.linkedin.com/in/hamza-nazir-550b28307/"
-               target="_blank"
-               rel="noopener">
-
-                <div class="contact-icon">
-                    in
-                </div>
-
-                <div>
-
-                    <small>
-                        LinkedIn
-                    </small>
-
-                    <strong>
-                        Hamza Bin Nazir
-                    </strong>
-
-                </div>
-
-            </a>
-
-
-            <a class="contact-card"
-               href="https://github.com/Hamza-Nazir193"
-               target="_blank"
-               rel="noopener">
-
-                <div class="contact-icon">
-                    ⌘
-                </div>
-
-                <div>
-
-                    <small>
-                        GitHub
-                    </small>
-
-                    <strong>
-                        Hamza-Nazir193
-                    </strong>
-
-                </div>
-
-            </a>
-
+          <a class="contact-card" href="mailto:hamzanazir357@gmail.com"><div class="contact-icon">✉</div><div><small>Email</small><strong>hamzanazir357@gmail.com</strong></div></a>
+          <a class="contact-card" href="tel:+923170216998"><div class="contact-icon">☎</div><div><small>Phone</small><strong>+92 317 0216998</strong></div></a>
+          <a class="contact-card" href="https://www.linkedin.com/in/hamza-nazir-550b28307/" target="_blank" rel="noopener"><div class="contact-icon">in</div><div><small>LinkedIn</small><strong>Hamza Bin Nazir</strong></div></a>
+          <a class="contact-card" href="https://github.com/Hamza-Nazir193" target="_blank" rel="noopener"><div class="contact-icon">⌘</div><div><small>GitHub</small><strong>Hamza-Nazir193</strong></div></a>
         </div>
+      </div>
+    </section>
+  </main>
 
-    </div>
+  <footer><div class="container footer-inner"><span>© 2026 Hamza Bin Nazir</span><a href="#home">Back to top ↑</a></div></footer>
 
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <p>
-        © 2026 Hamza Bin Nazir. All Rights Reserved.
-    </p>
-
-</footer>
-
-
-<script src="main.js"></script>
-
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" src="" alt="Project screenshot preview"></div>
+  <script src="main.js"></script>
 </body>
 </html>
