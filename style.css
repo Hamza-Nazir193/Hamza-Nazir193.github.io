@@ -43,6 +43,24 @@ a { text-decoration:none; color:inherit }
 .btn-outline:hover { background:#fff; color:#0b1a2e }
 .btn-ghost { color:#b8c7da }
 
+/* Orbit effect for Contact Me button */
+.btn-orbit {
+  position:relative;
+  display:inline-block;
+  border-radius:50%;
+  padding:6px;
+  background:linear-gradient(135deg,#2563eb,#22d3ee,#7c3aed);
+  box-shadow:0 0 0 8px rgba(255,255,255,.05),0 12px 30px rgba(0,0,0,.25);
+  animation:float 5s ease-in-out infinite;
+}
+.btn-orbit .btn {
+  border-radius:50px;
+  background:#0d1b2e;
+  color:#fff;
+  font-weight:600;
+  padding:12px 22px;
+}
+
 /* Hero Visual Orbit */
 .hero-visual {
   min-height:430px;
@@ -119,9 +137,4 @@ a { text-decoration:none; color:inherit }
 
 /* Projects */
 .projects-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px }
-.project-card { background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; box-shadow:0 10px 30px rgba(15,23,42,.06); transition:.25s; display:flex; flex-direction:column }
-.project-card:hover { transform:translateY(-6px); box-shadow:var(--shadow) }
-.project-media { height:190px; position:relative; background:#0d1b2e; overflow:hidden; cursor:zoom-in }
-.project-media img { width:100%; height:100%; object-fit:cover; display:block; transition:.35s }
-.project-card:hover .project-media img { transform:scale(1.035) }
-.project-label { position:absolute; top:12px; left:12px; background:#fff; color:#1d4ed8; padding:5px
+.project-card { background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; box-shadow:0 10px 30px rgba(15,23,42,.06); transition:.25s; display
